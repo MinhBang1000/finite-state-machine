@@ -12,7 +12,7 @@ How to work on it ?
 - To run our source you need to learn about compile C++ file by c++ or just follow my steps below:
 - g++ -c <file_name>.cpp --> This code will compile file_name.cpp (concrete file of a header) to file_name.o for the linking step
 ** Notice: You need to compile all .cpp files includes main.cpp
-- g++ <file_name_1>.cpp <file_name_2>.cpp ... <file_name_n>.cpp -o output
+- g++ <file_name_1>.o <file_name_2>.o ... <file_name_n>.o -o output
 --> Linking all files that have #include and using together inside.
 --> The output file is executable file
 - ./output --> Execute your program
